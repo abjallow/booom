@@ -7,7 +7,7 @@ var http = require('http'),
 
 
 function sendFile(req, res){
-   filed.pipe(filename).pipe(res);
+   filed(filename).pipe(res);
 }
 
 //Create a server

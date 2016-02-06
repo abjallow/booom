@@ -2,14 +2,14 @@
 var http = require('http'),
 	fs = require('fs'),
       filed = require('filed'), 
-      server = process.argv[2] || ("http://localhost:9999");
+      server = process.argv[2] || ("http://localhost:3000/search");
 
 const local_file_name = "client_data.mp3";
 
  http.get(server,
         function cb(res){
-         res.pipe(filed(local_file_name));
+        console.log(res);
+
+        res.on("data", (data) => );
+         // res.pipe(filed(local_file_name));
 });
-
- 
-

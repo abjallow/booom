@@ -1,14 +1,9 @@
 {
-  "name": "demo_server",
-  "version": "1.0.0",
-  "description": "Trying to get to demo milestone.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.13.4"
-  }
+    "name": "node-api",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.13.1",
+        // "mongoose": "~3.6.13",
+        "body-parser": "~1.14.2"
+    }
 }

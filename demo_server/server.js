@@ -26,6 +26,10 @@ router.get('/', function(req, res) {
 	});
 });
 
+router.get('/', function(req, res) {
+
+});
+
 //register routes
 // prefix is /api
 app.use('/api', router);
